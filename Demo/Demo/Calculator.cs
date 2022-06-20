@@ -23,4 +23,9 @@ public class Car
     public string Make;
 
     public string Model;
+
+    public string MakeNoise()
+    {
+        return $"{Make} {Model} does Vroem vroem";
+    }
 }

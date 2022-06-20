@@ -18,13 +18,15 @@ carOne.NumberOfSeats = 5;
 carOne.Make = "Volkswagen";
 carOne.Model = "Caddy";
 
-Console.WriteLine(carOne);
+
 
 var carTwo = new Car();
 carTwo.NumberOfSeats = 7;
-carTwo.Make = "Volkswagen";
-carTwo.Model = "Caddy Maxi";
+carTwo.Make = "Porsche";
+carTwo.Model = "Cayenne";
+carTwo.MakeNoise();
 
-Console.WriteLine(carTwo);
+Console.WriteLine(carTwo.MakeNoise());
+Console.WriteLine(carOne.MakeNoise());
 
 Console.ReadLine();
