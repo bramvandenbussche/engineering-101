@@ -6,14 +6,15 @@ public class Calculator
 
     public double DoSum(double a, int b)
     {
-        return a + b;
+        var sum = a + b;
+        Value = sum;
+        return sum;
     }
 
     public void Display(string x)
     {
         Console.WriteLine(x);
     }
-
 }
 
 public class Car
@@ -26,6 +27,6 @@ public class Car
 
     public string MakeNoise()
     {
-        return $"{Make} {Model} does Vroem vroem";
+        return $"{Make} {Model} does vroem vroem";
     }
 }
